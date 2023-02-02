@@ -1,9 +1,9 @@
 package Homework1;
 
 public class Book {
-     Author author;
-     String nameBook;
-     int year;
+     private Author author;
+     private String nameBook;
+     private int year;
 
     public Book(Author author, String nameBook, int year) {
         this.author = author;
